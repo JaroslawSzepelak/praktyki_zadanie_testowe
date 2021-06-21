@@ -195,3 +195,127 @@ html {
         transition-property: all;
         transition-duration: 0.3s;
     }
+
+    @media screen and (max-width: 1900px)
+    {
+        #searchbox {
+            margin-left: 70px;
+        }
+    }
+
+    @media screen and (max-width: 1880px)
+    {
+        nav ul li {
+            margin: 0 15px;
+        }
+        #searchbox {
+            margin-left: 50px;
+        }
+    }
+
+    @media screen and (max-width: 1820px)
+    {
+        nav ul li {
+            letter-spacing: normal;
+        }
+
+        #searchbox {
+            margin-left: 10px;
+        }
+    }
+
+    @media screen and (max-width: 1700px)
+    {
+        #simple{
+            left: 380px;
+        }
+
+        main {
+            margin: 0 400px 0 160px;
+        }
+
+        #navstart {
+            margin-left: 600px;
+        }
+    }
+
+    @media screen and (max-width: 1600px)
+    {
+        nav ul li {
+            margin: 0 10px;
+        }
+    }
+
+    @media screen and (max-width: 1550px)
+    {
+        nav ul li {
+            font-size: medium;
+        }
+    }
+
+    @media screen and (max-width: 1500px)
+    {
+        #simple{
+            left: 320px;
+        }
+
+        #navstart {
+            margin-left: 550px;
+        }
+
+        main {
+            margin: 0 330px 0 100px;
+        }
+
+        #searchbox {
+            margin-left: 10px;
+        }
+
+        input[type="text"]
+        {
+            width: 200px;
+        }
+    }
+
+    @media screen and (max-width: 1430px)
+    {
+        
+        #simple{
+            left: 280px;
+            width: 200px;
+        }
+
+        #navstart {
+            margin-left: 470px;
+        }
+
+        aside {
+            padding-right: 30px;
+            margin-left: 0px;
+        }
+
+        .asidemedia {
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        aside ul li {
+            padding: 2px;
+            font-size: 120%;
+        }
+
+        main {
+            margin-left: 120px;
+        }
+
+        #arrow {
+            left: 155px;
+            top: 430px;
+            width: 20px;
+        }
+
+        #arrow.active {
+            left: 300px;
+            top: 270px;
+        }
+    }
